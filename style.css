@@ -149,8 +149,12 @@ h2{
     align-items: center;
 }
 #clients img{
-    height: 120px;
-    width: 130px;
+    height: 110px;
+    width: 112px;
+    transition: transform .3s;
+}
+#clients img:hover{
+    transform: scale(0.7);
 }
 .client-item{
     padding:35px 60px;
@@ -206,4 +210,6 @@ footer{
     color: aliceblue;
     padding: 12px 20px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+
 }
